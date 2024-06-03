@@ -4,28 +4,37 @@ The social-components-rn library is a comprehensive and easy-to-use solution for
 
 ## Installation
 
+If using yarn:
+
+```sh
+yarn add react-native-social-components-rn
+```
+
+If using npm:
 ```sh
 npm install react-native-social-components-rn
 ```
 
+
 ## Usage
 
 ```js
-import { multiply } from 'react-native-social-components-rn';
+import { CustomButton } from 'react-native-social-components-rn';
 
 // ...
 
-const result = await multiply(3, 7);
+<View style={{flex: 1}}>
+      <CustomButton title={'This is a text'} />
+</View>
 ```
 
 ## Contributing
 
 See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.
 
-## License
-
-MIT
-
 ---
+## Author
+TrustDev | [https://www.trustdev.info/](https://www.trustdev.info/)
 
-Made with [create-react-native-library](https://github.com/callstack/react-native-builder-bob)
+## License
+[MIT](./LICENSE)
